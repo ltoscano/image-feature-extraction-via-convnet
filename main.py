@@ -27,12 +27,12 @@ def convert_mean_file(path):
 
 
 def main():
-    caffe_alexnet_path = "/mnt/hdd1/projects/caffe-modelzoo/AlexNet"
-    caffe_vgg16_path = "/mnt/hdd1/projects/caffe-modelzoo/VGG16"
-    caffe_googlenet_path = "/mnt/hdd1/projects/caffe-modelzoo/GoogleNet"
-    keys_path = "/mnt/hdd1/dataset/PascalSentence/keys.txt"
-    data_path = "/mnt/hdd1/dataset/PascalSentence/images"
-    dst_path = "/mnt/hdd1/projects/image-feature-extraction-via-convnet/features.npy"
+    caffe_alexnet_path = "/path/to/caffe-modelzoo/AlexNet"
+    caffe_vgg16_path = "/path/to/caffe-modelzoo/VGG16"
+    caffe_googlenet_path = "/path/to/caffe-modelzoo/GoogleNet"
+    keys_path = "/path/to/dataset/keys.txt"
+    data_path = "/path/to/dataset/images"
+    dst_path = "/path/to/dataset/features.npy"
 
     modelname = "VGG16"
 
